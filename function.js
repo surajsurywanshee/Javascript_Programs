@@ -101,3 +101,18 @@ function futToCm(fut)
 
 console.log(futToCm(45))
 
+// Array Check
+  function ArrayProblem1(n, arr) {
+        let max = arr[0]
+         let index=0
+        for(let i=0; i<n; i++) {
+            if(arr[i]> max) {
+                max= arr[i]
+                index =i
+            }
+        }
+        console.log(index)
+        }
+
+        ArrayProblem1(12, [3,6,467,32,8,3,673,8,54,54,267,76])
+
