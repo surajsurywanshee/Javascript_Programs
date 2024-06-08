@@ -1,4 +1,5 @@
-// duplicate values
+// 1.duplicate values
+
 let array=[1,2,3,4,2,5,1]
 
 let isDuplicate = false
@@ -15,5 +16,4 @@ for(let i=0; i<array.length-1; i++)
         }
     }
 }
-
 console.log(isDuplicate)
