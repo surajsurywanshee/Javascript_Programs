@@ -50,6 +50,24 @@ function voter(age)
 
 voter(46)
 
+// Average Number
+function averageGrade(arr) {
+    let sum=0;
+  for(let i=0; i< arr.length; i++)
+    {
+        sum=sum+arr[i]
+            console.log(sum)
+    }
+
+    let avr= sum/arr.length
+    console.log(avr)
+    return avr
+
+}
+
+    averageGrade([4,35,76,76,34,69])
+
+
 // Array Length
 
 function getArray(arg)
