@@ -1,6 +1,5 @@
-//1. Arithamatic Oprators
-
- concadination only apply on + operator it cant use - operatior
+// 1. Arithamatic Oprators
+ // concadination only apply on + operator it cant use - operatior
 
 console.log(2+4)
 console.log(10-4)
@@ -49,6 +48,7 @@ console.log(typeof("Suraj Pratima" %'53'))
 
 console.log('10'**3)
 
+// 2.INCREMENT OPERATOR
 let n= 45
 n++
  console.log(n++)
@@ -56,7 +56,6 @@ n++
  ++n
  console.log(n--)
  console.log(n)
-
 
  let n='23'
  n--
@@ -72,7 +71,7 @@ n++
 console.log(n+++n)
 
 
-Comparison Operators
+// 3.Comparison Operators
 
 console.log(2>5)
 console.log(3>5)
@@ -104,7 +103,7 @@ console.log('suraj'>'pratima')
 console.log('Z'>'y')
 
 
-// Sum And Avg Values
+// 4.Sum And Avg Values
 
 let dolphinScore = [96,88,89]
 let koalasScore = [88,96,89]
@@ -121,7 +120,6 @@ for(let i=0; i< dolphinLength; i++) {
     console.log(dolphinAvr)
 
 let koalasLength = koalasScore.length
-
     sum=0
 for(let i=0; i< koalasLength; i++) {
     let value = koalasScore[i]
@@ -131,7 +129,6 @@ for(let i=0; i< koalasLength; i++) {
     console.log(sum)
     let koalasAvr = sum/ koalasLength
     console.log(koalasAvr)
-
 
     if(dolphinAvr > koalasAvr && dolphinAvr>100) {
         console.log('dolphin win match')
@@ -145,4 +142,3 @@ for(let i=0; i< koalasLength; i++) {
     else {
     console.log('no one won the match')
     }
-
