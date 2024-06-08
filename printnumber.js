@@ -1,5 +1,5 @@
 
-//
+// 1.
 function print(num) {
     for(let i=1; i<=num; i++)  {
         let star=''
@@ -9,9 +9,9 @@ function print(num) {
         console.log(star)
     }
 }
-
 print(8)
 
+// 2.
 function ninjaNumber(n) {
     let count=1
     for(let i=1; i<=n; i++)  {
@@ -19,20 +19,16 @@ function ninjaNumber(n) {
         for(let j= 1; j<=(n-i);j++){
             str= str + ' '
         }
-
     for(let k=1; k <= i; k++) {
         str= str + count
         count++
     }
-
     console.log(str)
  }
-
 }
-
 ninjaNumber(8)
 
-
+// 3.
 function ninjaNumber(n) {
     let count=1
     for(let i=1; i<=n; i++)  {
@@ -44,7 +40,6 @@ function ninjaNumber(n) {
         str= str + count
         count++
     }
-
     console.log(str)
  }
 }
