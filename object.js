@@ -1,6 +1,5 @@
 // object in javascript
 
-
 let obj={}
 obj.name= ' Suraj '
 console.log(obj)
@@ -9,7 +8,7 @@ obj.code= 485446
 obj.no= 6232573530
 
 
-// 1. create  operations
+// 1. Create  Operations
 
 let obj1 = {}
 console.log(obj1)
@@ -23,31 +22,26 @@ obj1.section = 'bia-4'
 obj1.center = 'ddygky'
 console.log(obj1)
 
-// 2. read operations
+// 2. Read Operations
 
 let car={
-
 name :'thar',
 model :'4*4',
 engine : '1000cc',
 drivemode : 'auto',
-
 }
-
 console.log(car.name)
 
- // insert operations
+ // 3.Insert Operations
 
 let ddugky = {}
-
 ddugky.fundedBy ='DDUGKY'
 ddugky.runBy = 'JSMIES'
 ddugky.totalRunnigBatch = '4'
 ddugky.totalStudent = '60'
-
 console.log(ddugky)
 
- //3. update operations
+ // 4.Update Operations
 
 let computer = {
     father : 'charls',
@@ -55,15 +49,12 @@ let computer = {
     part : ['CPU', 'Monitor','Mouse'],
     type : 3
 }
-
 console.log(computer)
-
 computer.type = 4
 computer.father = 'suraj'
-
 console.log(computer)
 
-//4. delete operations
+//4. Delete Operations
 
  computer = {
     father : 'charls',
@@ -71,9 +62,7 @@ console.log(computer)
     part : ['CPU', 'Monitor','Mouse'],
     type : 3
 }
-
 console.log(computer)
-
 delete computer.father
 delete computer.part
 console.log(computer)
