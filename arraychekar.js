@@ -46,7 +46,7 @@ function numCheck(number) {
     }
     numCheck(3)
 
- // 4.Array Checking Program
+ // 4.Array (Even or Odd) Checking Program
 
  function evenChecker(arg)
  {
