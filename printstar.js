@@ -1,4 +1,4 @@
-//1.
+// 1.
 function printStar (n) {
     for(let i=1; i<=n; i++) {
         let str='*'
@@ -8,10 +8,9 @@ function printStar (n) {
         console.log(str)
     } 
 }
-
 printStar(4)
 
-//2.
+// 2.
 function printStar (n) {
     for(let i=1; i<=n; i++) {
         let str=''
@@ -21,10 +20,9 @@ function printStar (n) {
         console.log(str)
     } 
 }
-
 printStar(5)
 
-//3.
+// 3.
 function printStar (n) {
     for(let i=1; i<=n; i++) {
         let str=''
@@ -34,10 +32,9 @@ function printStar (n) {
         console.log(str)
     } 
 }
-
 printStar(5)
 
-//4.
+// 4.
 function printStar (n) {
     for(let i=1; i<=n; i++) {
         let str=''
@@ -48,14 +45,12 @@ function printStar (n) {
 
             str = str+'X '
         }
-
         console.log(str)
     }
 }
-
 printStar(5)
 
-//5.
+// 5.
 function hollowSquare(n) {
     for(let i=1; i<=n; i++) {
       let str = ''
@@ -70,10 +65,9 @@ function hollowSquare(n) {
         console.log(str)
     }
 }
-
 hollowSquare(6)
 
-//6.
+// 6.
 function hollowSquare(n) {
     for(let i=1; i<=n; i++) {
       let str = ''
@@ -88,10 +82,9 @@ function hollowSquare(n) {
         console.log(str)
     }
 }
-
 hollowSquare(6)
 
-//6.
+// 7.
 function hollowSquare(n) {
     for(let i=1; i<=n; i++) {
       let str = ''
@@ -106,10 +99,9 @@ function hollowSquare(n) {
         console.log(str)
     }
 }
-
 hollowSquare(20)
 
-//7.
+// 8.
 function hollowSquare(n) {
     for(let i=1; i<=n; i++) {
       let str = ''
@@ -124,38 +116,33 @@ function hollowSquare(n) {
         console.log(str)
     }
 }
-
 hollowSquare(10)
 
-//8.
+// 9.
 function print(num) {
     for(let i=1; i<=num; i++) {
         let star=''
         for(let j=1;j<=num;j++) {
             star=star+"*"
-
         }
         console.log(star)
     }
 }
-
 print(5)
 
-//9.
+// 10.
 function print(num) {
     for(let i=num; i>=1; i--) {
         let star=''
         for(let j=1;j<=i*2-1;j++) {
             star=star+"*"
-
         }
         console.log(star)
     }
 }
-
 print(9)
 
-//10.
+// 11.
 function print(num) {
     for(let i=1; i<=num; i++)  {
         let star=''
@@ -165,10 +152,9 @@ function print(num) {
         console.log(star)
     }
 }
-
 print(8)
 
-//11.
+//12.
 function print(num) {
     for(let i=1; i<=num; i++)  {
         let star=''
@@ -178,10 +164,9 @@ function print(num) {
         console.log(star)
     }
 }
-
 print(8)
 
-//12.
+//13.
 function print(num) {
     for(let i=1; i<=num; i++)  {
         let star=''
@@ -194,6 +179,4 @@ function print(num) {
             console.log(star)
         }
     }
-
 print(8)
-
