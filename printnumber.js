@@ -1,3 +1,23 @@
+// Prime Number Chekar 
+function checkPrime(n) {
+    let isPrime=true
+    for(let i=2; i<=n/2; i++)
+        {
+
+            isPrime= false
+            break;
+        }
+}
+
+  if (isPrime=true)
+    {
+        console.log(
+
+
+        )
+    }
+
+//
 function print(num) {
     for(let i=1; i<=num; i++)  {
         let star=''
