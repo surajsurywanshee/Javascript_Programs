@@ -49,7 +49,6 @@ function voter(age)
 }
 
 voter(46)
-
 // Average Number
 function averageGrade(arr) {
     let sum=0;
@@ -58,15 +57,30 @@ function averageGrade(arr) {
         sum=sum+arr[i]
             console.log(sum)
     }
-
     let avr= sum/arr.length
     console.log(avr)
     return avr
-
 }
 
     averageGrade([4,35,76,76,34,69])
 
+// Oddsum Average
+function oddball_sum(nums){
+       let sum =0;
+       let oddsum = 0;
+       for(let i=0; i<nums.length; i++)
+        {
+            if(nums[i] %2==1)
+            {
+                oddsum = oddsum+nums[i]
+            }
+
+        }
+            console.log(oddsum)
+        }
+        let oddballArray= [3,55,7,37,38,58,49,765,7]
+
+        oddball_sum(oddballArray)
 
 // Array Length
 
