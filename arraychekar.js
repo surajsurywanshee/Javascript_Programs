@@ -1,3 +1,4 @@
+
 // //  checking
 
 // function evenChecker(n)
@@ -13,6 +14,7 @@
 //  }
 
 //  evenChecker(65)
+
 
  // Array checking
 
@@ -54,3 +56,22 @@ let bia3 = ['suraj','pratima','sir']
 let bia4 = ['see','rfedrt','su']
 
 studentChecker('suraj',bia3)
+
+// Prime Number Chekar 
+function checkPrime(n) {
+    let isPrime=true
+    for(let i=2; i<=n/2; i++)
+        {
+
+            isPrime= false
+            break;
+        }
+}
+
+  if (isPrime=true)
+    {
+        console.log(
+
+
+        )
+    }
