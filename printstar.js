@@ -127,3 +127,73 @@ function hollowSquare(n) {
 
 hollowSquare(10)
 
+//8.
+function print(num) {
+    for(let i=1; i<=num; i++) {
+        let star=''
+        for(let j=1;j<=num;j++) {
+            star=star+"*"
+
+        }
+        console.log(star)
+    }
+}
+
+print(5)
+
+//9.
+function print(num) {
+    for(let i=num; i>=1; i--) {
+        let star=''
+        for(let j=1;j<=i*2-1;j++) {
+            star=star+"*"
+
+        }
+        console.log(star)
+    }
+}
+
+print(9)
+
+//10.
+function print(num) {
+    for(let i=1; i<=num; i++)  {
+        let star=''
+        for(let j=1; j<=i*2-1; j++) {
+            star=star+"*"
+        }
+        console.log(star)
+    }
+}
+
+print(8)
+
+//11.
+function print(num) {
+    for(let i=1; i<=num; i++)  {
+        let star=''
+        for(let j=1; j<=i; j++) {
+            star=star+"*"
+        }
+        console.log(star)
+    }
+}
+
+print(8)
+
+//12.
+function print(num) {
+    for(let i=1; i<=num; i++)  {
+        let star=''
+        for(let j=1; j<= num-1; j++) {
+                star=star+' '
+            }
+            for(let k=1; k<= i; k++){
+                star=star+'*'
+            }
+            console.log(star)
+        }
+    }
+
+print(8)
+
