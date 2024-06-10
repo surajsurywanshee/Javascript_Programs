@@ -173,4 +173,39 @@ if (water <= 100) {
 }
 console.log(billAmount);
 
+// 15. Array Addition
+let Array = [3,5,3,7,8,5,9]
+let sum = 0
+ for (let i = 0; i < Array.length; i++) {
+    sum = sum + Array[i]
+ }
+ console.log(sum)
+
+// 16. Array Matrix Additon 
+ let Array = [[1,2,3],[4,5,6],[7,8,9]]
+
+let sum = 0
+ for (let i = 0; i < Array.length; i++) {
+    for(let j = 0; j < Array.length; j++) {
+        sum = sum + Array[i][j]
+    }
+}
+ console.log(sum)
+
+// 17. Array Matrix Manual Addition
+let Array = [[1,2,3],[4,5,6],[7,8,9]]
+ function sumArray(arr) {
+    let sum = 0
+        for(let i = 0; i < arr.length; i++) {
+            for(let j = 0; j < arr.length; j++) {
+                if ((i==0 && j==0) || (i==1 && j==1) || (i==arr.length-1 && j==arr.length-1)) {
+                    sum = sum + arr[i][j]
+                }
+
+            }
+        }
+    console.log(sum)
+ }
+sumArray(Array)
+
 
