@@ -246,4 +246,23 @@ function printStar (n) {
 }
 printStar(5)
 
+// 18.
+function pattern(n) {
+    let totalrows = (n*2)-1
+    let count =1
+    for( let i=1; i<= totalrows ; i++ ) {
+        let str=''
+        for( let j=1; j<=count; j++ ){
+            str = str+'X'
+        }
+            if(i < n) {
+                count++
+            }
+            else {
+                count--
+            }
+            console.log(str)
+    }
+}
+pattern(6)
 
