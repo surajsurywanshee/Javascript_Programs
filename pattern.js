@@ -226,3 +226,24 @@ function ninjaNumber(n) {
  }
 }
 ninjaNumber(5)
+
+// 17.
+function printStar (n) {
+    for(let i=1; i<=n; i++) {
+        let str=''
+        for(let j=1; j<=i; j++) {
+            str=str+'*'
+        }
+        console.log(str)
+    }
+    for(let k=1; k <=n-1; k++) {
+        let str = ''
+    for(let l=1; l<=n-k; l++) {
+            str= str+ '*'
+        }
+        console.log(str)
+    }
+}
+printStar(5)
+
+
